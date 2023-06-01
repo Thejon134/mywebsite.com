@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(to top,#2C3333, #7e7262);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+}
+
+/* Nav bar style goes here with hover buttons */
+
+h1{
+    color: #ddd9d6;
+    background-image:url(https://img.freepik.com/free-photo/beautiful-scenery-pathway-forest-with-trees-covered-with-frost_181624-42376.jpg);
+    text-align: center;
+    margin: .5px;
+    padding: 20px;
+    font-size: 60px;
+    font-family:"Raleway",Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-size: cover;
+    
+    /* Fix the cover pic to show the whole image */
+}
+
+h2{
+    text-align: center;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    text-decoration: overline;
+    color: black;
+}
+
+#p1{
+    background-color:#4c5c5a;
+    color:#ddd9d6;
+    border-style:outset;  
+    border-width: 4px; 
+    border-radius: 9px; 
+    border-color:#6a6963 ;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font: bold;
+    font-size: 20px;
+    text-decoration: underline;
+  
+}
+ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.columns {
+    display: flex;
+    gap: 1em;
+}
+
+.columns > *{
+  flex-basis: 100%; 
+  background-color:#837960;
+  color:#ddd9d6;
+  border-style:outset;  
+  border-width: 4px; 
+  border-radius: 9px; 
+  border-color:#6a6963 ;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+ /* add media querie to fix the flexbox issue when resizing */
+
+ 
+
+
+

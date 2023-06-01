@@ -1,0 +1,30 @@
+#box1{
+    width: 25rem;
+    height: 3;
+    background-color: brown;
+    font-size: 80px;
+    text-align: center;
+    margin: auto;
+    
+   /* animation: fadeaway;
+    animation-duration: 7s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-play-state: running;
+    */
+}
+
+#box1:hover{
+    animation:7s linear 0s infinite running fadeaway;
+}
+
+@keyframes fadeaway{
+    50%{opacity: 0;}
+}
+@keyframes slide{
+    from{margin-left: 0%;}
+    to{margin-left: 100%;}
+}
+
+    
